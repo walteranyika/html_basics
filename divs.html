@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mystery+Quest&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* target elements */
+        p {
+            color: #8d0303;
+            /*hexa code*/
+            font-family: "PT Sans", sans-serif;
+        }
+
+        h2 {
+            color: #02447e;
+            /* font-family: 'Lucida Sans', sans-serif; */
+            font-family: "Mystery Quest", system-ui;
+        }
+
+        div{
+           background: #c5c2c2; 
+           padding-left: 15px;
+           padding-right: 15px;
+           padding-top: 12px;
+           padding-bottom: 12px;
+           /* padding: 12px 15px; top+bottom, l+r*/
+           /* padding: 12px 15px 12px 15px;  clockwise t-r-b-l*/
+           margin: 16px;
+           border: 2px dotted #990808;
+           width: 50%;
+           /* height: 250px; */
+        }
+
+        #xyz{
+            color:#53a105;
+        }
+
+        #zzz{
+            border: 1px solid yellow;
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <!-- Inline CSS  #ff0011-->
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p id="zzz">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reiciendis blanditiis architecto culpa cum.
+            Vero asperiores ab, mollitia ducimus rerum officiis quia, eveniet, facere omnis quibusdam doloremque.
+            Officiis, tempora harum?
+            Et quod eligendi necessitatibus illo similique aspernatur, architecto obcaecati. Voluptatum alias adipisci
+            maxime quam nemo, omnis excepturi harum eligendi provident ab libero est aperiam vitae numquam aliquid enim
+            tenetur quia.</p>
+    </div>
+
+    <div>
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quidem.</p>
+        </div>
+        <div>
+            <p id="xyz">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
