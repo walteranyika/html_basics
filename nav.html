@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: "Roboto Flex", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            border-bottom: 1px solid #c1c1c1;
+            /* background: #000; */
+        }
+
+        .nav-items {
+            width: 60%;
+            /* background: #c1c1c1; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-items ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+        .nav-items li {
+            margin-right: 16px;
+            margin-left: 16px;
+        }
+
+        .nav-items a {
+            text-decoration: none;
+            color: #000;
+            text-transform: capitalize;
+        }
+
+        .nav-items a:hover {
+            color: #645f5f;
+        }
+
+        .nav-items img {
+            width: 48px;
+            height: 48px;
+        }
+
+        /* git add . */
+        /* git commit -m "Built the nav bar" */
+        /* git push */
+
+    </style>
+</head>
+
+<body>
+
+    <!-- semantic tags -->
+    <nav>
+        <div class="nav-items">
+            <img src="images/icons8-computer-48.png" alt="Company logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+
+</body>
+
+</html>
