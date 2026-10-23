@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
+
+:root {
+    --brand-green: #159957;
+    --brand-dark: #1f2d3d;
+    --soft-bg: #f4f8f7;
+}
+
+
+body {
+    color: var(--brand-dark);
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.brand {
+    color: var(--brand-green);
+    font-size: 1.45rem;
+}
+
+#dark-title {
+    color: var(--brand-dark);
+}
+
+.brand:hover {
+    color: #064324;
+}
+
+
+.nav-link {
+    color: #536171;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--brand-green) !important;
+}
+
+.btn-success {
+    background-color: var(--brand-green) !important;
+    border-color: var(--brand-green) !important;
+    border-radius: 0;
+    transition: all 2s;
+}
+
+
+.btn-success:hover {
+    background-color: #08542e !important;
+    border-color: #08542e !important;
+}
+
+
+.hero {
+    padding: 3.5rem;
+    background: linear-gradient(120deg, #f7faf9, #edf3f1);
+}
+
+
+.top-title {
+    color: var(--brand-green);
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.hero h1 {
+    line-height: 1.2;
+}
+
+
+.section-heading h2 {
+    margin-bottom: 0.4rem;
+}
+
+.card {
+    border-color: #e5e9ec;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    /*all 0.2s ease*/
+}
+
+/* https: //cssgenerator.org/box-shadow-css-generator.html */
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: -5px 6px 15px -4px rgba(0, 0, 0, 0.69);
+    -webkit-box-shadow: -5px 6px 15px -4px rgba(0, 0, 0, 0.69);
+    -moz-box-shadow: -5px 6px 15px -4px rgba(0, 0, 0, 0.69);
+}
+
+
+.about-section{
+    background-color: var(--soft-bg) ;
+}
+
+.about-section i{
+    color: var(--brand-green);
+    font-size: 2.5rem;
+}
+
+
+.about-section p{
+    max-width: 600px;
+    margin: auto;
+}
+
+.footer{
+    background: #263342;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: var(--brand-green);
+    text-decoration: underline;
+}
+
+.copyright{
+    background:#0e1217 ;
+}
